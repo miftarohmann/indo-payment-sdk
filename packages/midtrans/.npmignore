@@ -1,0 +1,29 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Tests
+**/*.test.ts
+**/*.spec.ts
+*.test.js
+*.spec.js
+
+# Config
+tsconfig.json
+tsconfig.*.json
+tsup.config.ts
+vitest.config.ts
+
+# Development
+.DS_Store
+*.log
+.env
+.env.*
+node_modules/
+
+# Keep these files
+# README.md
+# LICENSE
+# package.json
+# dist/

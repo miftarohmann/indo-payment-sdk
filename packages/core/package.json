@@ -1,7 +1,7 @@
 {
   "name": "@indo-payment/core",
   "version": "0.1.0",
-  "description": "Core types and abstractions for Indo Payment SDK",
+  "description": "Core types and abstractions for Indo Payment SDK - Unified payment gateway for Indonesia",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,9 +16,36 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
   },
-  "keywords": ["payment", "indonesia", "types"],
-  "author": "Rohman",
+  "keywords": [
+    "payment",
+    "payment-gateway",
+    "indonesia",
+    "indonesian",
+    "midtrans",
+    "xendit",
+    "typescript",
+    "sdk",
+    "fintech",
+    "payment-integration",
+    "payment-processing",
+    "payment-sdk",
+    "e-commerce",
+    "online-payment"
+  ],
+  "author": {
+    "name": "Mifta Rohman",
+    "url": "https://github.com/miftarohman"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miftarohman/indo-payment-sdk.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/miftarohman/indo-payment-sdk/issues"
+  },
+  "homepage": "https://github.com/miftarohman/indo-payment-sdk#readme",
   "devDependencies": {
     "tsup": "^8.0.1",
     "typescript": "^5.3.2"

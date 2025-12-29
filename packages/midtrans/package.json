@@ -1,7 +1,7 @@
 {
   "name": "@indo-payment/midtrans",
   "version": "0.1.0",
-  "description": "Midtrans provider for Indo Payment SDK",
+  "description": "Midtrans payment provider for Indo Payment SDK - Accept payments via Midtrans in Indonesia",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,9 +16,36 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
   },
-  "keywords": ["payment", "midtrans", "indonesia"],
-  "author": "Rohman",
+  "keywords": [
+    "payment",
+    "payment-gateway",
+    "indonesia",
+    "midtrans",
+    "midtrans-sdk",
+    "typescript",
+    "sdk",
+    "fintech",
+    "snap",
+    "gopay",
+    "qris",
+    "bank-transfer",
+    "e-commerce",
+    "online-payment"
+  ],
+  "author": {
+    "name": "Mifta Rohman",
+    "url": "https://github.com/miftarohman"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miftarohman/indo-payment-sdk.git",
+    "directory": "packages/midtrans"
+  },
+  "bugs": {
+    "url": "https://github.com/miftarohman/indo-payment-sdk/issues"
+  },
+  "homepage": "https://github.com/miftarohman/indo-payment-sdk#readme",
   "dependencies": {
     "@indo-payment/core": "workspace:*"
   },

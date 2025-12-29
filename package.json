@@ -4,7 +4,7 @@
   "private": true,
   "description": "Unified Payment Gateway SDK for Indonesia",
   "keywords": ["payment", "gateway", "indonesia", "midtrans", "xendit", "typescript"],
-  "author": "Rohman",
+  "author": "Mifta Rohman",
   "license": "MIT",
   "repository": {
     "type": "git",
