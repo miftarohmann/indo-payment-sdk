@@ -1,0 +1,16 @@
+{
+  "name": "basic-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@indo-payment/core": "workspace:*",
+    "@indo-payment/midtrans": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
